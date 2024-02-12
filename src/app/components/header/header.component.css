@@ -1,0 +1,34 @@
+.header-container {
+    display: flex;
+    padding: 35px 60px 0px 60px;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    align-self: center;
+}
+
+.menu-links, a{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration-line: none;
+    color: white;
+}
+
+.menu-links .sign-up-btn {
+    border: 0px;
+    color: rgb(108, 80, 235);
+    background-color: white;
+    padding: 6px 27px 6px 27px;
+    border-radius: 25px;
+    font-weight: 600;
+}
