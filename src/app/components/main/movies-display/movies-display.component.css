@@ -33,7 +33,9 @@
 .movie-title {
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 10px;
+    height: 35px;
+    padding-top: 10px;
+    margin-bottom: 15px;
     background: linear-gradient(to left, rgb(247 247 247), rgb(201 27 255));
     -webkit-text-fill-color: transparent;
     background-clip: text;
