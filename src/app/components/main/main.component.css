@@ -1,13 +1,29 @@
 .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1240px;
+    padding: 0px 60px;
+    margin-top: 100px;
+}
+
+.left-container {
     width: 528px;
     height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-left: 60px;
     gap: 30px;
-    margin-top: 100px;
+}
+
+.movies-display {
+    display: flex;
+    height: 50vh;
+    width: 528px;
+    justify-content: flex-end;
+    padding-left: 120px;
+    padding-right: 240px;
 }
 
 .main-text {

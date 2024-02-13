@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
+import { MoviesDisplayComponent } from './movies-display/movies-display.component';
 
 @Component({
   selector: 'app-main',
@@ -7,4 +8,13 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
 
+  @ViewChild(MoviesDisplayComponent) moviesDisplay!: MoviesDisplayComponent;
+  @ViewChild('input') inputValue?: ElementRef;
+
+  movieTitle(title: string) {
+    if (title) {
+     this.moviesDisplay.getMovie(title)
+     this.inputValue!.nativeElement.value = '';
+    }
+  }
 }

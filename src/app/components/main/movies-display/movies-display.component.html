@@ -1,0 +1,17 @@
+<div *ngIf="title" class="movie-data-container">
+    <img [src]="imgPath">
+    <div class="movie-details">
+        <div class="movie-title">{{ title }}</div>
+        <div class="movie-years">
+            <div class="movie-year">Year: {{ year }}</div>
+            <div class="movie-rated">Ratings: {{ rated }}</div>
+            <div class="movie-released">Released: {{ released }}</div>
+        </div>
+        <div class="movie-genre"><span>Genre: </span>{{ genre }}</div>
+        <div class="movie-writer"><span>Writer: </span>{{ writer }}</div>
+        <div class="movie-actors"><span>Actors: </span>{{ actors }}</div>
+        <div class="movie-plot"><span>Plot: </span>{{ plot }}</div>
+        <div class="movie-language"><span>Language: </span>{{ language }}</div>
+        <div class="movie-rating"></div>
+    </div>
+</div>
