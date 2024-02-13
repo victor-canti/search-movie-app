@@ -83,3 +83,17 @@
     background-clip: text;
 }
 
+.serie-year {
+  font-size: 14px;  
+}
+
+.serie-rating {
+    background-image: linear-gradient(to left, rgb(162 43 209), rgb(45 20 151));
+    padding: 7px 3px;
+    border-radius: 4px;
+    font-size: 14px;  
+  }
+
+.serie-released {
+    font-size: 12px;
+}
